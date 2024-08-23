@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Victor | Desenvolvedor C# .NET</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="container-fluid">
+            <nav class="container-fluid">
+                <ul>
+                    <li><strong class="site-name">João Victor França Vitoriano</strong></li>
+                </ul>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Transformando Ideias em Código</h1>
+                <p>Especialista em C# .NET e SQL Server</p>
+                <a href="#portfolio" class="btn btn-primary">Veja meus projetos</a>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfólio</h2>
+            <div class="grid">
+                <article class="project-card">
+                    <figure>
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGNvZGUlMkNwcm9ncmFtbWluZ3xlbnwwfHx8fDE2OTM0MDg5OTY&ixlib=rb-1.2.1&q=80&w=400" alt="Projeto 1">
+                        <figcaption>
+                            <h3>Projeto 1</h3>
+                            <p>Descrição breve do projeto.</p>
+                            <a href="link-do-projeto-1" class="btn btn-secondary">Ver Projeto</a>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="project-card">
+                    <figure>
+                        <img src="" alt="Projeto 2">
+                        <figcaption>
+                            <h3>Projeto 2</h3>
+                            <p>Descrição breve do projeto.</p>
+                            <a href="link-do-projeto-2" class="btn btn-secondary">Ver Projeto</a>
+                        </figcaption>
+                    </figure>
+                </article>
+                <!-- Adicione mais projetos aqui -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:victorvitoriano1999@yahoo.com">victorvitoriano1999@yahoo.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/seu-perfil/" target="_blank">João Victor França Vitoriano</a></p>
+                <p>GitHub: <a href="https://github.com/seu-usuario" target="_blank">seu-usuario</a></p>
+                <p>Whatsapp: <a href="tel:+5573988988538">(73) 9 88988538</a></p>
+            </div>
+            <form action="enviar_mensagem.php" method="post">
+                <div class="grid">
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                    <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="container-fluid">
+            <p>&copy; 2024 João Victor França Vitoriano. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
